@@ -1,0 +1,174 @@
+.work-together {
+  padding-top: 64px;
+  padding-bottom: 32px;
+}
+
+.work-together-img {
+  border-radius: 12px;
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.work-together-title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #fafafa;
+  margin-bottom: 63px;
+}
+
+.footer-color-world {
+  color: #ed3b44;
+}
+
+.work-togethe-form {
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+}
+
+.form-input {
+  width: 100%;
+  height: 44px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(250, 250, 250, 0.2);
+  color: #fafafa;
+  padding-left: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.form-btn {
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #fafafa;
+  border-radius: 100%;
+  background-color: #ed3b44;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+
+.footer-contacts-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.footer-contacts-item {
+}
+
+.fotter-email {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: #fafafa;
+  border: 1px solid rgba(250, 250, 250, 0.2);
+  border-radius: 60px;
+  padding: 10px 12px;
+  display: block;
+}
+
+.footer-tel {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: #fafafa;
+  border: 1px solid rgba(250, 250, 250, 0.2);
+  border-radius: 60px;
+  padding: 10px 12px;
+  display: block;
+}
+
+.modal {
+  border: 1px solid rgba(250, 250, 250, 0.1);
+  border-radius: 20px;
+  padding: 64px 32px;
+  max-width: 343px;
+  height: 276px;
+  background-color: #1c1d20;
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.modal-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fafafa;
+  margin-bottom: 16px;
+}
+
+.modal-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(250, 250, 250, 0.6);
+}
+
+@media screen and (min-width: 768px) {
+  .work-together {
+    padding-top: 96px;
+    padding-bottom: 169px;
+  }
+
+  .work-together-title {
+    font-size: 64px;
+  }
+
+  .work-together-img {
+    border-radius: 24px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .work-togethe-form {
+    margin-bottom: 18px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .form-input {
+    /* width: 245px; */
+  }
+
+  .fotter-email {
+    font-size: 16px;
+  }
+
+  .footer-tel {
+    font-size: 16px;
+  }
+
+  .footer-contacts-list {
+    justify-content: start;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .work-together {
+    padding: 88px 196px;
+  }
+}
